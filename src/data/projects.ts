@@ -9,7 +9,7 @@ export const projects = [
       "A sleek, minimal, and fully responsive portfolio built with React and ShadCN UI.",
     tech: ["React", "TypeScript", "ShadCN UI", "Framer Motion"],
     image: portfolio,
-    live: "https://your-portfolio.com",
+    live: "https://my-portfolio-ten-swart-86.vercel.app/",
     github: "https://github.com/amritpal7/my-portfolio",
   },
   {
