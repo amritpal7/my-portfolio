@@ -56,7 +56,7 @@ const Projects = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="gap-2 transition-all duration-300 hover:bg-primary hover:text-white"
+                  className="gap-2 transition-all duration-300 hover:bg-foreground hover:text-background"
                   asChild
                 >
                   <a
@@ -72,7 +72,7 @@ const Projects = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="gap-2 transition-all duration-300 hover:bg-primary hover:text-white"
+                  className="gap-2 transition-all duration-300 hover:bg-foreground hover:text-background"
                   asChild
                 >
                   <a

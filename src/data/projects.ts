@@ -10,14 +10,14 @@ export const projects = [
     tech: ["React", "TypeScript", "ShadCN UI", "Framer Motion"],
     image: portfolio,
     live: "https://your-portfolio.com",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/amritpal7/my-portfolio",
   },
   {
     id: 2,
     title: "Todo App with Supabase",
     description:
       "A feature-rich Todo App using Redux, Supabase, and TailwindCSS for seamless task management.",
-    tech: ["React", "Redux", "Supabase", "TailwindCSS"],
+    tech: ["React", "Redux", "Supabase", "ShadCN UI"],
     image: todo,
     live: "https://todo-vite-app-flame.vercel.app/",
     github: "https://github.com/amritpal7/todo-vite-app",
