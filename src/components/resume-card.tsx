@@ -1,4 +1,4 @@
-// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -18,8 +18,8 @@ interface ResumeCardProps {
 }
 
 export const ResumeCard = ({
-  // logoUrl,
-  // altText,
+  logoUrl,
+  altText,
   title,
   subtitle,
   href,
@@ -46,14 +46,14 @@ export const ResumeCard = ({
         {/* ✅ Make card content flex-row with items-center */}
         <Card className="flex items-start gap-4 p-4">
           {/* ✅ Avatar aligned inline */}
-          {/* <Avatar className="border size-12 bg-muted-background dark:bg-foreground">
+          <Avatar className="border size-12 bg-muted-background dark:bg-foreground">
             <AvatarImage
               src={logoUrl}
               alt={altText}
               className="object-contain"
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>
-          </Avatar> */}
+          </Avatar>
 
           {/* ✅ Main content aligned beside avatar */}
           <div className="flex-grow">
