@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -18,8 +18,8 @@ interface ResumeCardProps {
 }
 
 export const ResumeCard = ({
-  logoUrl,
-  altText,
+  // logoUrl,
+  // altText,
   title,
   subtitle,
   href,
