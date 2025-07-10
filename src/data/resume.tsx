@@ -19,6 +19,7 @@ export const DATA = {
     "Node.js",
     "Postgres",
     "Supabase",
+    "MongoDB",
     "Docker",
     "C++",
   ],
